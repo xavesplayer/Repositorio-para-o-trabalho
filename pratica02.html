@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu formulário</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <header>
+        <p>Cadastro:</p>
+    </header>
+<main>
+    <form action="" method="post">
+        <br>
+        <div class="caixa"></div>
+        <div class="conteudo">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="Email" placeholder="Digite seu email"><br>
+            <label for="senha">Senha: </label><br>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br>
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" placeholder="Digite sua idade"><br><br>
+            <label for="genero">Gênero:</label><br>
+            <input type="radio" name="genero" value="heli" placeholder="Helicoptero de ataque">Helicoptero de ataque<br>
+            <input type="radio" name="genero" value="masc" placeholder="Masculino">Masculino<br>
+            <input type="radio" name="genero" value="fem" placeholder="Feminino">Feminino<br><br>
+            <label>Interesses:</label><br>
+            <input type="checkbox" name="interesse" value="css" placeholder="css">CSS
+            <input type="checkbox" name="interesse" value="java" placeholder="java">Java
+            <input type="checkbox" name="interesse" value="c++" placeholder="c++">C++
+            <input type="checkbox" name="interesse" value="html" placeholder="html">HTML
+            <input type="checkbox" name="interesse" value="python" placeholder="python">Python<br><br>
+        </div>
+        <label for="observacoes" title="Observações">Observações:</label>
+        <br>
+            <div class="obs">
+                <textarea name="observacoes" rows="8" cols="50"></textarea><br><br>
+            </div>
+            <div class="botao">
+                <button type="submit" title="Cadastrar-se">Cadastrar-se</button>            
+            </div>
+        </div>
+    </form>
+</main>
+</body>
+</html>
